@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="hintColor">#ff999999</color>
+    <color name="themeColor">#ff4abdcc</color>
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="btn_search_cancel_press">#4dffffff</color>
+    <color name="activity_bg">#fffbf7ed</color>
+    <color name="radiobg_normal">#555555</color>
+    
+</resources>

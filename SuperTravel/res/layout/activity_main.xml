@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <RadioGroup
+        android:id="@+id/bottom_menu"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/stroll_button"
+            style="@style/menu_radioButton"
+            android:drawableTop="@drawable/gg"
+            android:text="逛逛" />
+
+        <RadioButton
+            android:id="@+id/destion_button"
+            style="@style/menu_radioButton"
+            android:drawableTop="@drawable/mdd"
+            android:text="目的地" />
+
+        <RadioButton
+            android:id="@+id/diary_button"
+            style="@style/menu_radioButton"
+            android:drawableTop="@drawable/rj"
+            android:text="日记" />
+
+        <RadioButton
+            android:id="@+id/myspace_button"
+            style="@style/menu_radioButton"
+            android:drawableTop="@drawable/w"
+            android:text="我" />
+    </RadioGroup>
+
+    <FrameLayout
+        android:id="@+id/main_contain"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottom_menu" />
+
+</RelativeLayout>
